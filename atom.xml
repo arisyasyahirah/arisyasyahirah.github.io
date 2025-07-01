@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://arisyasyahirah.github.io</id>
+    <title>Gridea</title>
+    <updated>2025-07-01T07:51:37.526Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://arisyasyahirah.github.io"/>
+    <link rel="self" href="https://arisyasyahirah.github.io/atom.xml"/>
+    <subtitle>☄. *. ⋆ Arisyas blogspot :DD  ☄. *. ⋆</subtitle>
+    <logo>https://arisyasyahirah.github.io/images/avatar.png</logo>
+    <icon>https://arisyasyahirah.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2025, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[Statistic studies]]></title>
+        <id>https://arisyasyahirah.github.io/post/statistic-studies/</id>
+        <link href="https://arisyasyahirah.github.io/post/statistic-studies/">
+        </link>
+        <updated>2025-07-01T07:50:35.000Z</updated>
+        <content type="html"><![CDATA[<p>Here's a revised version of your document with improved formatting, clearer explanations, and corrected calculations:</p>
+<h1 id="comprehensive-probability-and-statistics-questions-with-detailed-solutions"><strong>Comprehensive Probability and Statistics Questions with Detailed Solutions</strong></h1>
+<h2 id="chapter-1-probability-theory">Chapter 1: Probability Theory</h2>
+<h3 id="question-1">Question 1</h3>
+<p>A bag contains:</p>
+<ul>
+<li>5 red marbles</li>
+<li>3 blue marbles</li>
+<li>2 green marbles</li>
+</ul>
+<p>One marble is drawn at random.</p>
+<p><strong>Solutions:</strong><br>
+(a) P(Red) = Number of red marbles / Total marbles = 5/10 = 0.5<br>
+(b) P(Not Green) = 1 - P(Green) = 1 - (2/10) = 0.8</p>
+<h3 id="question-2">Question 2</h3>
+<p>A fair six-sided die is rolled.</p>
+<p><strong>Solutions:</strong><br>
+(a) P(&gt;4) = P(5 or 6) = 2/6 = 1/3 ≈ 0.333<br>
+(b) P(Even or Prime):</p>
+<ul>
+<li>Even numbers: 2,4,6 (3 outcomes)</li>
+<li>Prime numbers: 2,3,5 (3 outcomes)</li>
+<li>P(Even or Prime) = P(Even) + P(Prime) - P(2) = 3/6 + 3/6 - 1/6 = 5/6 ≈ 0.833</li>
+</ul>
+<h2 id="chapter-2-discrete-probability-distributions">Chapter 2: Discrete Probability Distributions</h2>
+<h3 id="question-3">Question 3</h3>
+<p>Defective items probability distribution:</p>
+<table>
+<thead>
+<tr>
+<th>X</th>
+<th>P(X)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>0.4</td>
+</tr>
+<tr>
+<td>1</td>
+<td>0.3</td>
+</tr>
+<tr>
+<td>2</td>
+<td>0.2</td>
+</tr>
+<tr>
+<td>3</td>
+<td>0.1</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Solutions:</strong><br>
+(a) Valid because ΣP(X)=1 and all P(X)≥0<br>
+(b) μ = Σ[X·P(X)] = (0×0.4)+(1×0.3)+(2×0.2)+(3×0.1) = 1.0<br>
+(c)</p>
+<ul>
+<li>σ² = Σ[(X-μ)²·P(X)] = (0-1)²(0.4)+(1-1)²(0.3)+(2-1)²(0.2)+(3-1)²(0.1) = 1.0</li>
+<li>σ = √1.0 = 1.0</li>
+</ul>
+<h3 id="question-4">Question 4</h3>
+<p>30% prefer tea (p=0.3), sample n=4</p>
+<p><strong>Solutions:</strong><br>
+(a) Binomial distribution:<br>
+P(X=k) = C(4,k)(0.3)<sup>k(0.7)</sup>(4-k)</p>
+<p>(b) P(X≥2) = P(2)+P(3)+P(4) = 6(0.3)²(0.7)² + 4(0.3)³(0.7) + (0.3)^4 ≈ 0.3483</p>
+<h2 id="chapter-3-binomial-distribution">Chapter 3: Binomial Distribution</h2>
+<h3 id="question-5">Question 5</h3>
+<p>10 questions, 4 options each (p=0.25)</p>
+<p><strong>Solutions:</strong><br>
+(a) P(X=3) = C(10,3)(0.25)³(0.75)^7 ≈ 0.2503<br>
+(b) P(X≥5) = 1 - P(X≤4) ≈ 1 - 0.9219 = 0.0781</p>
+<h3 id="question-6">Question 6</h3>
+<p>Defect rate p=0.05, n=20</p>
+<p><strong>Solutions:</strong><br>
+(a)</p>
+<ul>
+<li>μ = np = 20×0.05 = 1</li>
+<li>σ = √(npq) = √(20×0.05×0.95) ≈ 0.9747</li>
+</ul>
+<p>(b) P(X≤2) = P(0)+P(1)+P(2) ≈ 0.3585 + 0.3774 + 0.1887 ≈ 0.9246</p>
+<h2 id="chapter-4-poisson-distribution">Chapter 4: Poisson Distribution</h2>
+<h3 id="question-7">Question 7</h3>
+<p>λ=5 calls/hour</p>
+<p><strong>Solutions:</strong><br>
+(a) P(X=3) = (e⁻⁵·5³)/3! ≈ 0.1404<br>
+(b) For 30 minutes: λ=2.5<br>
+P(X≥2) = 1 - P(0) - P(1) ≈ 1 - 0.0821 - 0.2052 ≈ 0.7127</p>
+<h3 id="question-8">Question 8</h3>
+<p>λ=2 typos/page</p>
+<p><strong>Solutions:</strong><br>
+(a) P(X=0) = e⁻² ≈ 0.1353<br>
+(b) For 3 pages: λ=6<br>
+P(X≥4) = 1 - P(0) - P(1) - P(2) - P(3) ≈ 1 - 0.0025 - 0.0149 - 0.0446 - 0.0892 ≈ 0.8488</p>
+<h2 id="chapter-5-measures-of-central-tendency-variation">Chapter 5: Measures of Central Tendency &amp; Variation</h2>
+<h3 id="question-9">Question 9</h3>
+<p>Data: 4,6,5,8,7,5,9,6,4,7</p>
+<p><strong>Solutions:</strong><br>
+(a)</p>
+<ul>
+<li>Mean = (4+6+5+8+7+5+9+6+4+7)/10 = 6.1</li>
+<li>Median = 6 (after sorting: 4,4,5,5,6,6,7,7,8,9)</li>
+<li>Mode = 4,5,6,7 (all appear twice)</li>
+</ul>
+<p>(b)</p>
+<ul>
+<li>Range = 9-4 = 5</li>
+<li>Variance = Σ(x-μ)²/(n-1) = [(4-6.1)² + (6-6.1)² + ... + (7-6.1)²]/9 ≈ 2.99</li>
+<li>Standard deviation ≈ √2.99 ≈ 1.73</li>
+</ul>
+<h3 id="question-10">Question 10</h3>
+<p>μ=50, σ=10, X=65</p>
+<p><strong>Solutions:</strong><br>
+(a) z = (X-μ)/σ = (65-50)/10 = 1.5<br>
+(b) Interpretation: The value 65 is 1.5 standard deviations above the mean.</p>
+<h2 id="key-improvements">Key Improvements:</h2>
+<ol>
+<li>Corrected variance calculation in Question 9 (using n-1 for sample variance)</li>
+<li>Fixed Poisson calculation in Question 8(b)</li>
+<li>Added more detailed steps for binomial probability calculations</li>
+<li>Improved formatting for better readability</li>
+<li>Added proper interpretation of z-score</li>
+<li>Ensured all probabilities sum to 1 where appropriate</li>
+<li>Used consistent decimal places throughout</li>
+</ol>
+<p>The solutions now provide clearer step-by-step explanations and more accurate calculations.</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[READY2RESCUE ]]></title>
+        <id>https://arisyasyahirah.github.io/post/ready2rescue/</id>
+        <link href="https://arisyasyahirah.github.io/post/ready2rescue/">
+        </link>
+        <updated>2025-05-31T11:44:00.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="lencana-perkhidmatan">LENCANA PERKHIDMATAN</h1>
+<p><strong>Membuat dan memperlajari pelbagai cara untuk bantuan awal keselamatan</strong></p>
+<p><img src="https://arisyasyahirah.github.io/post-images/1748692585780.png" alt="" loading="lazy"><br>
+<img src="https://arisyasyahirah.github.io/post-images/1748692610687.jpg" alt="" loading="lazy"></p>
+<h2 id="1-membuat-pelbagai-jenis-balutan">1. Membuat pelbagai jenis balutan</h2>
+<p><img src="https://arisyasyahirah.github.io/post-images/1748692788486.jpg" alt="" loading="lazy"><br>
+<img src="https://arisyasyahirah.github.io/post-images/1748693036662.jpg" alt="" loading="lazy"><br>
+<img src="https://arisyasyahirah.github.io/post-images/1748692801072.jpg" alt="" loading="lazy"><br>
+<img src="https://arisyasyahirah.github.io/post-images/1748692829654.jpg" alt="" loading="lazy"><br>
+<img src="https://arisyasyahirah.github.io/post-images/1748692836896.jpg" alt="" loading="lazy"></p>
+<h2 id="2-mempelajari-cara-membuat-cpr-dan-hemlich-menouver">2. Mempelajari cara membuat cpr dan hemlich menouver</h2>
+<p><img src="https://arisyasyahirah.github.io/post-images/1748692846214.jpg" alt="" loading="lazy"><br>
+<img src="https://arisyasyahirah.github.io/post-images/1748693458676.jpg" alt="" loading="lazy"><br>
+<img src="https://arisyasyahirah.github.io/post-images/1748693471887.jpg" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WEBSITE WORKSHOP]]></title>
+        <id>https://arisyasyahirah.github.io/post/website-workshop/</id>
+        <link href="https://arisyasyahirah.github.io/post/website-workshop/">
+        </link>
+        <updated>2025-04-25T00:40:36.000Z</updated>
+        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://arisyasyahirah.github.io/post-images/1745686738847.jpg" alt="" loading="lazy"></figure>
+<h1 id="ksm-website-workshop-h1">KSM WEBSITE WORKSHOP H1</h1>
+<figure data-type="image" tabindex="2"><img src="https://arisyasyahirah.github.io/post-images/1745686635912.jpg" alt="" loading="lazy"></figure>
+<h2 id="h2">H2</h2>
+<h3 id="h3">H3</h3>
+<h4 id="h4">H4</h4>
+<h5 id="h5">H5</h5>
+<h6 id="h6">H6</h6>
+<p>italic = <em>italic</em><br>
+bold = <strong>bold</strong><br>
+bold italic =<strong><em>bold italic</em></strong></p>
+<p>listing</p>
+<ul>
+<li>item 1</li>
+<li>item 2
+<ul>
+<li>1a subitem</li>
+<li>2a subitem</li>
+</ul>
+</li>
+</ul>
+<p>orderd list</p>
+<ol>
+<li>first item</li>
+<li>first
+<ol>
+<li>subitem</li>
+<li>subitem</li>
+</ol>
+</li>
+</ol>
+<p>links<br>
+<a href="https://open.gridea.dev/">grideda</a><br>
+<a href="https://open.gridea.dev/">https://open.gridea.dev/</a></p>
+<p>images<br>
+<img src="https://arisyasyahirah.github.io/post-images/1745542046680.png" alt="" loading="lazy"></p>
+<p>code block</p>
+<pre>
+fucntion hello(){
+    console.log("Hello world!");
+}
+
+</pre>
+<p>horizontal line</p>
+<hr>
+<h2 id="or">or</h2>
+<p>tables</p>
+<table>
+<thead>
+<tr>
+<th>header 1</th>
+<th>header 2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>row 1</td>
+<td>data</td>
+</tr>
+<tr>
+<td>row 2</td>
+<td>data</td>
+</tr>
+</tbody>
+</table>
+<p>check boxes</p>
+<ul class="contains-task-list">
+<li>[] task1</li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-4272336"><label class="task-list-item-label" for="task-item-4272336"> task 2</label></li>
+</ul>
+<p><br> &lt;!-- line break -- &gt;</br><br>
+<b>bold</b></p>
+<p><mark>highlights</mark></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[making a website using gridea]]></title>
+        <id>https://arisyasyahirah.github.io/post/making-a-website-using-gridea/</id>
+        <link href="https://arisyasyahirah.github.io/post/making-a-website-using-gridea/">
+        </link>
+        <updated>2025-04-22T06:03:54.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="markdown-language-complete-compilation">📘 Markdown Language Complete Compilation</h2>
+<h1 id="g">G⛏🛠⚒🔨</h1>
+<h3 id="headings">Headings</h3>
+<h1 id="heading-1">Heading 1</h1>
+<h2 id="heading-2">Heading 2</h2>
+<h3 id="heading-3">Heading 3</h3>
+<h4 id="heading-4">Heading 4</h4>
+<h5 id="heading-5">Heading 5</h5>
+<h6 id="heading-6">Heading 6</h6>
+<h3 id="emphasis">Emphasis</h3>
+<p><em>italic</em></p>
+<p><strong>bold</strong></p>
+<p><strong><em>bold italic</em></strong></p>
+<p><s>strikethrough</s></p>
+<h3 id="lists">Lists</h3>
+<h4 id="unordered-list">Unordered List</h4>
+<ul>
+<li>Item 1</li>
+<li>Item 2
+<ul>
+<li>Subitem 2a</li>
+<li>Subitem 2b</li>
+</ul>
+</li>
+</ul>
+<h4 id="ordered-list">Ordered List</h4>
+<ol>
+<li>First item</li>
+<li>Second item
+<ol>
+<li>Subitem</li>
+<li>Subitem</li>
+</ol>
+</li>
+</ol>
+<h3 id="links">Links</h3>
+<p><a href="https://www.example.com/">LOOK HERE</a></p>
+<p><a href="https://www.example.com">https://www.example.com</a></p>
+<h3 id="images">Images</h3>
+<figure data-type="image" tabindex="1"><img src="https://arisyasyahirah.github.io/post-images/1745305665367.png" alt="abby" loading="lazy"></figure>
+<h3 id="code">Code</h3>
+<h4 id="inline-code">Inline Code</h4>
+<p>Use code in your sentence.</p>
+<h4 id="code-block">Code Block</h4>
+<pre>
+language
+function hello() {
+  console.log("Hello, world!");
+}
+
+</pre>
+<h3 id="blockquotes">Blockquotes</h3>
+<blockquote>
+<p>This is a blockquote.</p>
+<blockquote>
+<p>Nested quote.</p>
+</blockquote>
+</blockquote>
+<h3 id="horizontal-rule">Horizontal Rule</h3>
+<p>or</p>
+<hr>
+<p>or</p>
+<hr>
+<h3 id="tables">Tables</h3>
+<table>
+<thead>
+<tr>
+<th>Header 1</th>
+<th>Header 2</th>
+<th>Header 3</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Row 1</td>
+<td>Data</td>
+<td>Data</td>
+</tr>
+<tr>
+<td>Row 2</td>
+<td>More</td>
+<td>Data</td>
+</tr>
+</tbody>
+</table>
+<h3 id="checkboxes-task-lists">Checkboxes / Task Lists</h3>
+<ul class="contains-task-list">
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-2144669"><label class="task-list-item-label" for="task-item-2144669"> Task not done</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-2397258"><label class="task-list-item-label" for="task-item-2397258"> Task completed</label></li>
+</ul>
+<h3 id="footnotes-github-flavored">Footnotes (GitHub Flavored)</h3>
+<p>Here is a footnote.<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup><br>
+(WILL APEAR AT THE BOTTOM OF THE WEBSITE)</p>
+<h3 id="html-in-markdown-for-extras">HTML in Markdown (for extras)</h3>
+<p>html<br>
+<br> <!-- Line break --><br>
+<b>Bold with HTML</b></p>
+<p><mark>Highlight</mark>: Highlighted text</p>
+<p><span style="font-family: 'Verdana', sans-serif;">Verdana</span><br>
+<span style="font-family: 'Tahoma', sans-serif;">Tahoma</span><br>
+<span style="font-family: 'Trebuchet MS', sans-serif;">Trebuchet MS</span><br>
+<span style="font-family: 'Times New Roman', serif;">Times New Roman</span><br>
+<span style="font-family: 'Georgia', serif;">Georgia</span><br>
+<span style="font-family: 'Courier New', monospace;">This is Courier New font</span><br>
+<span style="font-family: 'Brush Script MT', cursive;">Brush Script MT</span></p>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p>This is the footnote content. <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[cobblemon]]></title>
+        <id>https://arisyasyahirah.github.io/post/arisyasyahirah/</id>
+        <link href="https://arisyasyahirah.github.io/post/arisyasyahirah/">
+        </link>
+        <updated>2025-04-09T05:11:57.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="sprigatito">Sprigatito</h1>
+<blockquote>
+<p>NEWS FLASH<br>
+a kid chooses sprigatito as a starter!!</p>
+</blockquote>
+<figure data-type="image" tabindex="1"><img src="https://arisyasyahirah.github.io/post-images/1744178499840.png" alt="" loading="lazy"></figure>
+<h2 id="so-u-should-choose-sprigatitio"><strong>SO u should choose sprigatitio</strong></h2>
+<ul>
+<li>very dostile</li>
+<li>very adorable(space afte -)
+<ul>
+<li>2.1</li>
+</ul>
+<ol>
+<li>Cool</li>
+<li>cute</li>
+<li>AMAZINGLY CUTE</li>
+</ol>
+</li>
+</ul>
+<h3 id="sprigatito-is-a-grass-typemake-sure-space-after-the">SPRIGATITO IS A GRASS TYPE(make sure space after the #)</h3>
+<p><strong>its moves are</strong> <em>leaf bladee</em>(italic)</p>
+<h4 id="and-is-very-cute">and is very cute</h4>
+<p><s>like verry very cute</s>(double symbols adn no space)</p>
+<br>
+> make every post related w all the programmes they join <br>
+> and make sure they post it every time for all the participants<br>
+> and make all the posts as documentation for the BPA report
+<figure data-type="image" tabindex="2"><img src="https://arisyasyahirah.github.io/post-images/1744176752362.png" alt="" loading="lazy"></figure>
+<ul class="contains-task-list">
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-4044595"><label class="task-list-item-label" for="task-item-4044595"> Completed task</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-9093962"> Incomplete task<br>
+<label class="task-list-item-label" for="task-item-9093962"> Incomplete task
+😁</label></li>
+</ul>
+<blockquote>
+<p><strong>Note:</strong> This is a note.<br>
+<strong>Warning:</strong> This is a warning.</p>
+</blockquote>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hello Gridea]]></title>
+        <id>https://arisyasyahirah.github.io/post/hello-gridea/</id>
+        <link href="https://arisyasyahirah.github.io/post/hello-gridea/">
+        </link>
+        <updated>2018-12-11T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
+✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
+✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+<!-- more -->
+<p><a href="https://github.com/getgridea/gridea">Github</a><br>
+<a href="https://gridea.dev/">Gridea 主页</a><br>
+<a href="https://fehey.com/">示例网站</a></p>
+<h2 id="特性">特性👇</h2>
+<p>📝  你可以使用最酷的 <strong>Markdown</strong> 语法，进行快速创作</p>
+<p>🌉  你可以给文章配上精美的封面图和在文章任意位置插入图片</p>
+<p>🏷️  你可以对文章进行标签分组</p>
+<p>📋  你可以自定义菜单，甚至可以创建外部链接菜单</p>
+<p>💻  你可以在 <strong>Windows</strong>，<strong>MacOS</strong> 或 <strong>Linux</strong> 设备上使用此客户端</p>
+<p>🌎  你可以使用 <strong>𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌</strong> 或 <strong>Coding Pages</strong> 向世界展示，未来将支持更多平台</p>
+<p>💬  你可以进行简单的配置，接入 <a href="https://github.com/gitalk/gitalk">Gitalk</a> 或 <a href="https://github.com/SukkaW/DisqusJS">DisqusJS</a> 评论系统</p>
+<p>🇬🇧  你可以使用<strong>中文简体</strong>或<strong>英语</strong></p>
+<p>🌁  你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力</p>
+<p>🖥  你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步</p>
+<p>🌱 当然 <strong>Gridea</strong> 还很年轻，有很多不足，但请相信，它会不停向前 🏃</p>
+<p>未来，它一定会成为你离不开的伙伴</p>
+<p>尽情发挥你的才华吧！</p>
+<p>😘 Enjoy~</p>
+]]></content>
+    </entry>
+</feed>
